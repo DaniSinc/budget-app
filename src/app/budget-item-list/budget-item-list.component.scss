@@ -3,8 +3,6 @@
 .budget-items-section {
     display: flex;
     padding: 50px;
-
-    // Horizontally and vertically center flex children
     justify-content: center;
     align-items: center;
     
@@ -17,7 +15,7 @@
         .income-column, .expenses-column {
             display: flex;
             flex-direction: column;
-            flex-basis: 0; // for the columns to be the same size, regardless of content
+            flex-basis: 0;
             flex-grow: 1;
 
             h1 {
